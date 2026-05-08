@@ -19,6 +19,43 @@ This repository demonstrates the basic and intermediate workflows commonly used 
 
 ---
 
+# Clone Process Demonstration
+![alt text](image.png)
+
+
+After running the command in Command Prompt, Git automatically:
+
+- Connected to the GitHub repository
+- Downloaded all repository files
+- Retrieved commit history and branches
+- Created a local folder named PixelForge
+
+The terminal output confirms that the cloning process was completed successfully.
+
+Example output:
+
+Cloning into 'PixelForge'...
+remote: Enumerating objects: 2498, done.
+remote: Counting objects: 100% (494/494), done.
+remote: Compressing objects: 100% (353/353), done.
+remote: Total 2498 (delta 233), reused 245 (delta 136), pack-reused 2004
+Receiving objects: 100% (2498/2498), 10.73 MiB | 910.00 KiB/s, done.
+Resolving deltas: 100% (1554/1554), done.
+
+Result
+
+After the process finished, the repository was successfully copied into the local computer directory:
+
+C:\Users\PC\PixelForge
+
+The local repository can now be:
+
+- Opened in Visual Studio Code
+- Modified locally
+- Connected to GitHub for collaboration
+- Updated using pull and push commands
+
+
 # Objectives
 
 The objectives of this project are:
